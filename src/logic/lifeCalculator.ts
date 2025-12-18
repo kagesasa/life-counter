@@ -45,7 +45,7 @@ export class LifeCalculator {
             return this.getDeadStats();
         }
 
-        const lifespan = Number(settings.lifespanYears) || 85; // Safety fallback
+        const lifespan = Number(settings.lifespanYears) || 90; // Safety fallback
         const death = new Date(birth);
         death.setFullYear(birth.getFullYear() + lifespan);
 
