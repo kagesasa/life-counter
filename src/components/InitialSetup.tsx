@@ -13,7 +13,7 @@ export function InitialSetup({ onComplete }: InitialSetupProps) {
     // Defaults hidden from UI
     const sleep = 7;
     const work = 8;
-    const lifespan = 85;
+    const lifespan = 90;
 
     const normalizeInput = (value: string) => {
         return value.replace(/[０-９]/g, (s) => String.fromCharCode(s.charCodeAt(0) - 0xFEE0));
